@@ -1,0 +1,100 @@
+2018-06-26T22:05:01.938923+00:00 app[web.1]: Listening on 32345
+2018-06-26T22:05:02.375508+00:00 heroku[web.1]: State changed from starting to up
+2018-06-26T22:05:03.863459+00:00 heroku[router]: at=info method=GET path="/" host=ancient-harbor-17968.herokuapp.com request_id=0291c000-a8b7-4b28-b278-927d26013c98 fwd="205.185.99.31" dyno=web.1 connect=1ms service=359ms status=200 bytes=1427 protocol=https
+2018-06-26T22:05:04.077514+00:00 heroku[router]: at=info method=GET path="/stylesheets/main.css" host=ancient-harbor-17968.herokuapp.com request_id=0bea65ae-9139-4a83-a88e-50f49775e9c2 fwd="205.185.99.31" dyno=web.1 connect=0ms service=84ms status=200 bytes=1040 protocol=https
+2018-06-26T22:06:23.263189+00:00 heroku[router]: at=info method=GET path= "/getRate?weight= 3.5&type=Letters+%28Stamped%29" host=ancient-harbor-17968.herokuapp.com request_id=d24bd633-4fee-4f2d-8100-467034d7cb5f fwd="205.185.99.31" dyno=web.1 connect=1ms service=9ms status=200 bytes=199 protocol=https
+2018-06-26T22:40:05.686337+00:00 heroku[web.1]: Idling
+2018-06-26T22:40:05.686337+00:00 heroku[web.1]: State changed from up to down
+2018-06-26T22:40:06.628968+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-06-26T22:40:06.771280+00:00 heroku[web.1]: Process exited with status 143
+2018-06-26T22:47:08.378306+00:00 heroku[web.1]: Unidling
+2018-06-26T22:47:08.378652+00:00 heroku[web.1]: State changed from down to starting
+2018-06-26T22:47:12.720464+00:00 heroku[web.1]: Starting process with command `node index.js`
+2018-06-26T22:47:16.527035+00:00 app[web.1]: Listening on 34741
+2018-06-26T22:47:16.956467+00:00 heroku[web.1]: State changed from starting to up
+2018-06-26T22:47:18.475105+00:00 heroku[router]: at=info method=GET path="/" host=ancient-harbor-17968.herokuapp.com request_id=40730539-347d-4493-a1ab-336902eddebc fwd="192.225.186.6" dyno=web.1 connect=0ms service=36ms status=200 bytes=1427 protocol=https
+2018-06-26T22:47:18.588395+00:00 heroku[router]: at=info method=GET path="/stylesheets/main.css" host=ancient-harbor-17968.herokuapp.com request_id=40f65be7-fed6-429d-8ea1-b15955fb9d66 fwd="192.225.186.6" dyno=web.1 connect=0ms service=10ms status=200 bytes=1040 protocol=https
+2018-06-26T22:47:18.748024+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ancient-harbor-17968.herokuapp.com request_id=8e6951e2-ee9a-48d5-91ad-9f6d70d5dd38 fwd="192.225.186.6" dyno=web.1 connect=0ms service=4ms status=404 bytes=394 protocol=https
+2018-06-26T22:47:18.947557+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ancient-harbor-17968.herokuapp.com request_id=ede21fa4-fc25-4988-be76-8054841eaca2 fwd="192.225.186.6" dyno=web.1 connect=1ms service=3ms status=404 bytes=394 protocol=https
+2018-06-26T22:47:38.000000+00:00 app[api]: Build started by user all15019@byui.edu
+2018-06-26T22:47:39.000000+00:00 app[api]: Build failed -- check your build logs
+2018-06-26T22:48:31.000000+00:00 app[api]: Build failed -- check your build logs
+2018-06-26T22:48:30.000000+00:00 app[api]: Build started by user all15019@byui.edu
+2018-06-26T22:50:12.000000+00:00 app[api]: Build failed -- check your build logs
+2018-06-26T22:50:11.000000+00:00 app[api]: Build started by user all15019@byui.edu
+2018-06-26T22:55:54.000000+00:00 app[api]: Build started by user all15019@byui.edu
+2018-06-26T22:56:05.708261+00:00 heroku[web.1]: Restarting
+2018-06-26T22:56:05.710383+00:00 heroku[web.1]: State changed from up to starting
+2018-06-26T22:56:05.477697+00:00 app[api]: Release v11 created by user all15019@byui.edu
+2018-06-26T22:56:05.477697+00:00 app[api]: Deploy 62d9b9f5 by user all15019@byui.edu
+2018-06-26T22:56:05.000000+00:00 app[api]: Build succeeded
+2018-06-26T22:56:06.744752+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-06-26T22:56:06.847874+00:00 heroku[web.1]: Process exited with status 143
+2018-06-26T22:56:08.006527+00:00 heroku[web.1]: Starting process with command `node index.js`
+2018-06-26T22:56:09.761965+00:00 app[web.1]: Listening on 37799
+2018-06-26T22:56:10.453005+00:00 heroku[web.1]: State changed from starting to up
+2018-06-26T22:56:14.850746+00:00 heroku[router]: at=info method=GET path="/" host=ancient-harbor-17968.herokuapp.com request_id=f5fe9fe7-e46f-46ac-813f-1d66e5266b2c fwd="192.225.186.6" dyno=web.1 connect=0ms service=31ms status=304 bytes=151 protocol=https
+2018-06-26T22:56:14.984911+00:00 heroku[router]: at=info method=GET path="/stylesheets/main.css" host=ancient-harbor-17968.herokuapp.com request_id=c54f76ed-4181-480b-8a19-efe580aee8d3 fwd="192.225.186.6" dyno=web.1 connect=1ms service=7ms status=200 bytes=1040 protocol=https
+2018-06-26T23:32:02.306947+00:00 heroku[web.1]: Idling
+2018-06-26T23:32:02.308385+00:00 heroku[web.1]: State changed from up to down
+2018-06-26T23:32:03.025849+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-06-26T23:32:03.130253+00:00 heroku[web.1]: Process exited with status 143
+2018-06-27T01:00:14.000000+00:00 app[api]: Build started by user all15019@byui.edu
+2018-06-27T01:00:30.289500+00:00 app[api]: Deploy 1aa75b93 by user all15019@byui.edu
+2018-06-27T01:00:31.930566+00:00 heroku[web.1]: State changed from down to starting
+2018-06-27T01:00:30.289500+00:00 app[api]: Release v12 created by user all15019@byui.edu
+2018-06-27T01:00:31.000000+00:00 app[api]: Build succeeded
+2018-06-27T01:00:34.640271+00:00 heroku[web.1]: Starting process with command `node mail.js`
+2018-06-27T01:00:36.990123+00:00 app[web.1]: Listening on 9606
+2018-06-27T01:00:38.351871+00:00 heroku[web.1]: State changed from starting to up
+2018-06-27T01:00:39.698638+00:00 heroku[router]: at=info method=GET path="/" host=ancient-harbor-17968.herokuapp.com request_id=98700079-e9ad-4f60-823f-d7b611aed5da fwd="192.225.186.6" dyno=web.1 connect=12ms service=31ms status=304 bytes=151 protocol=https
+2018-06-27T01:00:39.814355+00:00 heroku[router]: at=info method=GET path="/stylesheets/main.css" host=ancient-harbor-17968.herokuapp.com request_id=e8f4a8ce-6824-44e1-bf6e-4c4dd39c44ac fwd="192.225.186.6" dyno=web.1 connect=1ms service=8ms status=200 bytes=1040 protocol=https
+2018-06-27T01:02:53.000000+00:00 app[api]: Build started by user all15019@byui.edu
+2018-06-27T01:03:08.969834+00:00 heroku[web.1]: Restarting
+2018-06-27T01:03:08.969834+00:00 heroku[web.1]: State changed from up to starting
+2018-06-27T01:03:08.642443+00:00 app[api]: Deploy 8422c70a by user all15019@byui.edu
+2018-06-27T01:03:08.642443+00:00 app[api]: Release v13 created by user all15019@byui.edu
+2018-06-27T01:03:10.080551+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-06-27T01:03:10.208878+00:00 heroku[web.1]: Process exited with status 143
+2018-06-27T01:03:09.000000+00:00 app[api]: Build succeeded
+2018-06-27T01:03:11.572185+00:00 heroku[web.1]: Starting process with command `node forum.js`
+2018-06-27T01:03:14.059062+00:00 app[web.1]: Listening on port 31810
+2018-06-27T01:03:14.500654+00:00 heroku[web.1]: State changed from starting to up
+2018-06-27T01:03:19.934638+00:00 heroku[router]: at=info method=GET path="/" host=ancient-harbor-17968.herokuapp.com request_id=eb4988c2-ba1b-4504-a645-9e14380e43f1 fwd="192.225.186.6" dyno=web.1 connect=1ms service=47ms status=200 bytes=306 protocol=https
+2018-06-27T01:35:52.489017+00:00 heroku[web.1]: Idling
+2018-06-27T01:35:52.489017+00:00 heroku[web.1]: State changed from up to down
+2018-06-27T01:35:53.516314+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-06-27T01:35:53.641404+00:00 heroku[web.1]: Process exited with status 143
+2018-06-27T03:35:37.523692+00:00 heroku[web.1]: State changed from down to starting
+2018-06-27T03:35:37.356401+00:00 app[api]: Set PGUSER config vars by user all15019@byui.edu
+2018-06-27T03:35:37.356401+00:00 app[api]: Release v14 created by user all15019@byui.edu
+2018-06-27T03:35:39.988667+00:00 heroku[web.1]: Starting process with command `node forum.js`
+2018-06-27T03:35:41.938370+00:00 app[web.1]: Listening on port 24121
+2018-06-27T03:35:43.647588+00:00 heroku[web.1]: State changed from starting to up
+2018-06-27T04:08:25.517391+00:00 heroku[web.1]: Idling
+2018-06-27T04:08:25.517999+00:00 heroku[web.1]: State changed from up to down
+2018-06-27T04:08:26.271798+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-06-27T04:08:26.363718+00:00 heroku[web.1]: Process exited with status 143
+2018-06-27T22:37:43.000000+00:00 app[api]: Build started by user all15019@byui.edu
+2018-06-27T22:38:10.982425+00:00 heroku[web.1]: State changed from down to starting
+2018-06-27T22:38:10.633379+00:00 app[api]: Release v15 created by user all15019@byui.edu
+2018-06-27T22:38:10.633379+00:00 app[api]: Deploy 70900bc4 by user all15019@byui.edu
+2018-06-27T22:38:10.000000+00:00 app[api]: Build succeeded
+2018-06-27T22:38:13.047694+00:00 heroku[web.1]: Starting process with command `node forum.js`
+2018-06-27T22:38:15.262608+00:00 app[web.1]: postgres://lemxbnccltjdnw:f60b636df988e8ca253ac2a9ae967b44887839a0577174ca6258a352b9c196e5@ec2-50-19-86-139.compute-1.amazonaws.com:5432/db5ma4d153d86o
+2018-06-27T22:38:15.281583+00:00 app[web.1]: Listening on port 52165
+2018-06-27T22:38:16.726007+00:00 heroku[web.1]: State changed from starting to up
+2018-06-27T22:39:12.355587+00:00 heroku[router]: at=info method=GET path="/" host=ancient-harbor-17968.herokuapp.com request_id=0a5cbd27-e96a-41b1-91bf-bfefaf6a2c61 fwd="192.225.186.6" dyno=web.1 connect=0ms service=29ms status=200 bytes=408 protocol=https
+2018-06-27T22:39:12.488117+00:00 heroku[router]: at=info method=GET path="/javascript/connectDB.js" host=ancient-harbor-17968.herokuapp.com request_id=34865471-bdfc-4f40-9050-8bf9623f45d3 fwd="192.225.186.6" dyno=web.1 connect=1ms service=13ms status=200 bytes=567 protocol=https
+2018-06-27T22:39:12.489808+00:00 heroku[router]: at=info method=GET path="/javascript/queries.js" host=ancient-harbor-17968.herokuapp.com request_id=f1b17d81-69da-49a0-ab49-ce8e3ad9e6a4 fwd="192.225.186.6" dyno=web.1 connect=0ms service=15ms status=200 bytes=764 protocol=https
+2018-06-27T22:39:18.219127+00:00 heroku[router]: at=info method=GET path="/getUsers" host=ancient-harbor-17968.herokuapp.com request_id=77262df9-10e0-4547-9f74-9467739d3d3d fwd="192.225.186.6" dyno=web.1 connect=0ms service=14ms status=400 bytes=243 protocol=https
+2018-06-27T22:39:18.219012+00:00 app[web.1]: { Error: connect ECONNREFUSED 127.0.0.1:5432
+2018-06-27T22:39:18.219045+00:00 app[web.1]: at Object._errnoException (util.js:1024:11)
+2018-06-27T22:39:18.219049+00:00 app[web.1]: at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+2018-06-27T22:39:18.219051+00:00 app[web.1]: code: 'ECONNREFUSED',
+2018-06-27T22:39:18.219047+00:00 app[web.1]: at _exceptionWithHostPort (util.js:1046:20)
+2018-06-27T22:39:18.219052+00:00 app[web.1]: errno: 'ECONNREFUSED',
+2018-06-27T22:39:18.219054+00:00 app[web.1]: syscall: 'connect',
+2018-06-27T22:39:18.219055+00:00 app[web.1]: address: '127.0.0.1',
+2018-06-27T22:39:18.219057+00:00 app[web.1]: port: 5432 }
+2018-06-27T22:39:18.220002+00:00 app[web.1]: error in query
