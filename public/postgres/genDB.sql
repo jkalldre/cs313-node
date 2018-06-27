@@ -6,6 +6,11 @@ DROP TABLE comments               CASCADE;
 
 CREATE EXTENSION pgcrypto;
 
+CREATE USER forumuser WITH PASSWORD 'password';
+GRANT SELECT, INSERT, UPDATE ON person TO forumuser;
+GRANT USAGE, SELECT ON SEQUENCE person_id_seq TO forumuser;
+
+
 CREATE TABLE users (
     user_id  SERIAL       CONSTRAINT pk_users_1 PRIMARY KEY
 ,   username VARCHAR(30)  CONSTRAINT nn_users_1 NOT NULL
