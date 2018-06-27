@@ -1,1 +1,1 @@
-web: node mail.js
+web: node forum.js
