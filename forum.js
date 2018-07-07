@@ -14,5 +14,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.get('/', (req, res) => res.render('pages/forum',{title: "Forum"}));
-app.get('/getUsers', queries.getUsers);
+app.get('/getTopics', queries.getTopics);
+app.get('/userComments', (req,res) => res.render('pages/userComments',{title: "My Comments"}));
 app.listen(PORT,()=> console.log(`Listening on port ${PORT}`));
