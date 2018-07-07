@@ -1,8 +1,3 @@
-// const { Pool } = require('pg');
-// const pool = new Pool({
-//     connectionString: process.env.DATABASE_URL,
-//     ssl: false
-// });
 const url     = require('url');
 const express = require('express');
 const path    = require('path');
@@ -16,4 +11,6 @@ app.set('view engine', 'ejs');
 app.get('/', (req, res) => res.render('pages/forum',{title: "Forum"}));
 app.get('/getTopics', queries.getTopics);
 app.get('/userComments', (req,res) => res.render('pages/userComments',{title: "My Comments"}));
+app.get('/getComments', queries.getComments);
+app.get('/username', queries.username);
 app.listen(PORT,()=> console.log(`Listening on port ${PORT}`));
