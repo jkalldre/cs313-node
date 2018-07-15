@@ -5,18 +5,198 @@ td, th {
 
 .topic {
   background-color:lightgray;
-  margin: 0 0 5px 0;
-  padding: 0;
+  margin: 0 0 1px 0;
+  padding: 0 0 0 5px;
   width: 50%;
   border: 1px solid black;
+}
+
+.comment {
+  background-color:lightgray;
+  margin: 0 0 1px 0;
+  padding: 5px 0 5px 5px;
+  width: 75%;
+  border: 1px solid black;
+}
+
+.deleteButton {
+  float: right;
 }
 
 div h2 , div p {
   margin: 0;
 }
 
+#newTopic {
+  width: 50%;
+}
 
+#error {
+  color: red;
+}
+
+#newComment {
+  width: 75%;
+}
 
 a, div {
   display:block;
 }
+
+/*NEW*/
+:root {
+  --blue1: #38A0F9;
+  --blue2: #0191C8;
+  --blue3: #74C2E1;
+  --gray1: #8C8984;
+  --gray2: lightgray;
+  --creme: #fffdf0;}
+
+/* Tags */
+body {
+  background-color: var(--blue1);
+  margin:0;
+  padding:0;
+}
+
+form {
+  border: 3px solid var(--gray2);
+  background:white;
+}
+
+button {
+  border:none;
+}
+
+a.loginbtn {
+  width:98%;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+
+}
+a:visited {
+  color:black;
+}
+
+button:hover {
+  opacity: .8;
+}
+/* Classes */
+.cl1 {
+  width: 2%;
+}
+
+.cl2 {
+  padding-left: 5px;
+  width: 10%;
+}
+
+.cl3 {
+  width: 20%;
+}
+
+.cl2 {
+  width: 60%;
+}
+
+.column {
+  float:left;
+  padding:0px;
+  margin:0;
+  /* width:46.94%; */
+  width:50%;
+  /* width:% */
+}
+
+.left {
+  background-color: var(--blue2);
+  height:25%;
+  /* overflow-y: scroll; */
+}
+
+.loginbtn {
+  background-color: lightgreen;
+  width: 100%;
+  padding:10px;
+  margin:10px 0 0 0;
+}
+
+.logout {
+  bottom: 0px;
+  position: fixed;
+  margin:0;
+  width:100%;
+  background-color: lightgray;
+}
+
+.right {
+  background-color: var(--blue3);
+  /* width:50%; */
+  padding:0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.imgsignin {
+  text-align: center;
+  margin:0;
+  padding: 10px 0 0 0;
+  background-color: white;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: bold;
+  background-color: var(--blue3);
+  text-align: center;
+  margin: 0 0 5px 0;
+  width: 100%;
+
+}
+
+.signin {
+  padding: 20px;
+  background-color: white;
+}
+
+input.signin {
+  width:100%;
+  padding: 10px 15px;
+  background-color: white;
+  margin: 5px;
+}
+
+
+
+ul.task {
+  list-style-type: none;
+}
+
+div.task {
+  background-color: white;
+  margin:0;
+  padding:5px;
+  border: 1px solid lightgray;
+  width:100%;
+}
+
+div.task:hover{
+  opacity: .8;
+}
+a {
+  display:block;
+}
+table {
+  width:100%;
+  text-align: left;
+}
+
+td {
+  /* width: 50%; */
+}
+/* IDs */

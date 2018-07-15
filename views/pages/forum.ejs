@@ -1,9 +1,32 @@
 <% include ../partials/head.ejs %>
 
-<h1>Forum</h1>
+<!--<h1><%= title %></h1>-->
 
+    <div class="header">Forum </div>
 <div id="contents">
+
+    <!--<div class="imgsignin">-->
+        <!--<img src="newuser.png">-->
+    <!--</div>-->
+
+    <div class="signin">
+        <lable for="usrname"><b>Username:</b></lable>
+        <input class="signin" type="text" placeholder="Enter Username" id="usrname" required>
+        <br />
+
+        <lable for="usrpwd"><b>Password:</b></lable>
+        <input class="signin" type="password" placeholder="Enter Password" id="usrpwd" required>
+
+        <lable for="login"><span style="color:red"><?php echo $error?></span></lable>
+        <button class="loginbtn" onclick="authenticate()" name="login">Login</button>
+        <div id="error"></div>
+        <!--<button class="loginbtn" onclick="getTopics()">Create User</button>-->
+
+    </div>
+
+
 </div>
 <script type="text/javascript" src="javascript/main.js">
 </script>
+
 <% include ../partials/foot.ejs %>
